@@ -4,13 +4,14 @@ import * as React from 'react';
 import Grid from '@mui/material/Unstable_Grid2';
 import {Box, Typography} from "@mui/material";
 import Image from "mui-image";
+import {InvitationHeadline} from "./components/InvitationHeadline.tsx";
 
 function App() {
   return (
       <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
               <Grid item xs={12} mb={4} mt={4} display={"flex"} justifyContent={"center"}>
-                  <span className="headline">Save the Date</span>
+                  <InvitationHeadline invitationId="12345" />
               </Grid>
               <Grid item xsOffset={3} xs={6} mb={2} display={"flex"} justifyContent={"center"}>
                   <Image
@@ -25,7 +26,7 @@ function App() {
               <Grid item xs={12} display={"flex"} justifyContent={"center"}>
                   <span className="main-text">welcome to the wedding celebrations of</span>
               </Grid>
-              <Grid item xs={12} display={"flex"} justifyContent={"center"}>
+              <Grid item xs={12} mt={1} display={"flex"} justifyContent={"center"}>
                   <span className="couple-name">ERIC</span>
               </Grid>
               <Grid item xs={12} display={"flex"} justifyContent={"center"}>
