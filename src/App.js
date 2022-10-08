@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import * as React from 'react';
 import Grid from '@mui/material/Unstable_Grid2';
-import {Box, Typography} from "@mui/material";
+import {Box} from "@mui/material";
 import Image from "mui-image";
 import {InvitationHeadline} from "./components/InvitationHeadline.tsx";
 
