@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'im-fell-italic';
+  src: local('im-fell-italic'), url(./fonts/IMFellFrenchCanon-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Alta';
+  src: local('Alta'), url(./fonts/Alta_regular.otf) format('truetype');
+}

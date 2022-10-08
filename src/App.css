@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.headline {
+  font-family: im-fell-italic, serif;
+  font-size: 1.75rem;
+}
+
+.main-text {
+  font-family: im-fell-italic, serif;
+}
+
+.couple-name {
+  font-family: Alta, serif;
+  letter-spacing: .75rem;
+  font-weight: bolder;
+}
